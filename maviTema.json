@@ -1,0 +1,27 @@
+/*For the regular markdown text*/
+.markdown {
+    font-family:candara;
+}
+
+/*For the code blocks in markdown*/
+.markdown :not(pre)>code {
+    font-family:"YaHei Consolas Hybrid", consolas;
+}
+
+/*For the editor*/
+.view-line, .line-numbers {
+    font-family:"YaHei Consolas Hybrid", consolas;
+    font-size:17px;
+    height:22px;
+    font-weight: 900;
+   
+}
+
+p, h1, h2, h3, h4, h5, h6, .cell.text, .markdown, .main-content, .notebook-content, .add-cell, .cell, .text, .formview, .formview-title {
+    
+    background: #dce6e5;
+}
+.inputarea, .monaco-editor-background, .margin-view-overlays {
+    background-color: #e0f0ea;
+    
+}
